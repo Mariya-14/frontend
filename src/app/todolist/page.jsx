@@ -6,12 +6,13 @@ const Todolist = () => {
     const [count, setCount] = useState(1);
   return (
     <div>
-       <h1 className='text-3xl font-bold'>{count}</h1>
+        {/*
+       <h1 className='text-3xl font-bold'>{count}</?h1>
        <button className='border p-3' onClick={() => {
         setCount(count + 1); 
         console.log(count);
         }}>Click Me
-        </button>
+        </button>*/}
     </div>
   )
 }
