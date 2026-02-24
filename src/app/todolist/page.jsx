@@ -5,9 +5,9 @@ const Todolist = () => {
     //let count = 1;
     //const [count, setCount] = useState(1);
     const [taskList, setTaskList] = useState([
-        /*{task : 'Doodh lao' , completed : false},
+        {task : 'Doodh lao' , completed : false},
         {task : 'Chocos lao' , completed : false},
-        {task : 'Maggie lao' , completed : false}*/])
+        {task : 'Maggie lao' , completed : false}])
         const addNewTask = (e) => {
             if(e.code == 'Enter') {
                 console.log(e.target.value);
